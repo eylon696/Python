@@ -1,0 +1,19 @@
+Definitions:
+States: s0, s1, s2
+Start: s0
+Accepting: s0
+
+Transitions:
+s0: 0 -> s0
+s0: 1 -> s1
+s1: 1 -> s0
+s1: 0 -> s2
+s2: 0 -> s1
+s2: 1 -> s2
+
+Inputs:
+0
+0, 1
+0, 1, 0
+0, 0, 0, 0
+0, 1, 1, 1, 1, 1, 0
